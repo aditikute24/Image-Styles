@@ -1,0 +1,16 @@
+.flex-container {
+    display: flex; /* Use flexbox to arrange items */
+    gap: 20px; /* Adjust the gap between items */
+}
+
+.flex-container img {
+    max-width: 100%; /* Ensure images don't exceed container width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.img2{
+    box-shadow: 20px 20px 30px hwb(0 7% 24%);
+}
+.img3{
+    filter: drop-shadow(20px 20px 30px red);
+}
